@@ -1,0 +1,35 @@
+.height {
+  height: 100%;
+}
+
+.search-results {
+  position: absolute;
+  list-style: none;
+  border-bottom: 1px solid black;
+  top: 3rem;
+  border-radius: 5px;
+  background-color: white;
+  margin: 0;
+}
+.search-results-list {
+  padding: 10px;
+  border-bottom: 1px solid;
+  width: 17rem;
+  display: block;
+  text-decoration: none;
+}
+
+.search-results > ul {
+  list-style: none;
+  padding: 0;
+  height: 50vh;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.search-results > ul::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(160, 159, 159);
+}
+.search-results > ul::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+}

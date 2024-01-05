@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid blue !important; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.items-in-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav {
+  flex-direction: unset !important;
+}
+.navbar-nav a {
+  padding: 10px;
+}
+.container-fluid {
+  display: flex;
+  align-items: initial !important;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container-fluid > a {
+  margin: 0 auto;
+  padding: 30px;
+}
+.navbar {
+  margin-bottom: 5px;
+}
+
+#light {
+  /* background-color: #f3ebf6; */
+  background-color: #f7f7f7;
+  /* color: #8c55aa; */
+  color: #020327;
+}
+
+#dark {
+  background-color: #171924;
+  color: #ffffff;
+}
+
+.switch {
+  position: absolute;
+}
+#light .containerInMain {
+  background-color: #fff;
+}
+#light a {
+  color: rgb(59, 59, 59);
+}
+#dark a {
+  color: white;
+}
+.switch {
+  width: 100%;
+}
+#dark .footer,
+#dark .navbar,
+#dark .containerInMain,
+#dark .containerInCryptoChart {
+  background-color: #171924;
+}
+
+#dark .cryptoChart,
+#dark .nft-card,
+#dark .token-container {
+  background-color: #323546;
+}
+#light .cryptoChart,
+#light .nft-card,
+#light .token-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#dark .paginate a {
+  background-color: #171924;
+  border: none;
+}
+#light .paginate a {
+  border: none;
+}
+#dark input {
+  background-color: #c6c6cc;
+}
+#light input:not(.set-theme input) {
+  background-color: #ffffff;
+}
+#dark .paginate .active a,
+#dark .paginate a:hover {
+  background-color: #a1a7bb;
+  color: black;
+}
+#light .paginate .active a,
+#light .paginate a:hover {
+  background-color: rgb(168, 206, 255);
+  color: white;
+}
+#dark button {
+  color: white;
+  border-color: rgb(59, 59, 59);
+  background-color: #171924;
+}
+#light button {
+  color: #54bbff;
+  border-color: #81e2ff;
+  background-color: #f3faff;
+}
+#dark button:hover {
+  background-color: #e0e0e0;
+  color: #040405;
+}
+#light button:hover {
+  color: #ffffff;
+  background-color: #0a9dff;
+}
+#dark .search-results-list {
+  color: rgb(31, 30, 30);
+}
+#dark .topic {
+  background-color: #363b4e;
+  border: 1px solid black;
+}
+#dark .news-content,
+#dark .main-form {
+  background-color: #222531;
+}
+#light .news-content,
+#light .main-form {
+  color: black;
+}
+#light .topic {
+  color: #ffffff;
+  background-color: #0a9dff;
+  border-color: white;
+}
+#light .main-form {
+  color: black;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#light .onClick:hover,
+#light .idInCryptoChart:hover {
+  background-color: rgb(248, 250, 255);
+}
+#dark .onClick:hover,
+#dark .idInCryptoChart:hover {
+  background-color: #404357;
+}
+#light .trending-coins {
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#dark .search-results-list:hover {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+#light .search-results-list:hover {
+  background-color: rgb(25, 154, 240);
+  color: white;
+}
+#light .news-content {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-color: white;
+}
+#light .news {
+  border-color: #0a9dff;
+}
+#light .containerInMain {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* .search-results-list a {
+  text-decoration: none;
+} */
+
+.set-theme {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  display: flex;
+}
+@media (max-width: 768px) {
+  #dark .idInCryptoChart {
+    background-color: #323546;
+  }
+  #light .idInCryptoChart {
+    background-color: rgb(255, 255, 255);
+  }
+  .items-in-navbar {
+    display: block;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+  }
+  .items-in-navbar form input {
+    padding: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .switch {
+    width: auto;
+  }
+}

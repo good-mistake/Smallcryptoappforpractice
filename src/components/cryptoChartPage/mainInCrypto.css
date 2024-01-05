@@ -1,0 +1,90 @@
+.containerInCryptoChart {
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.37); */
+  margin-top: 40px;
+}
+.searchbox {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+.imageInCryptoCHart {
+  width: 30px;
+  vertical-align: middle;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+table th,
+table tr {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+tbody td {
+  padding: 10px;
+}
+.onClick {
+  cursor: pointer;
+}
+
+table {
+  margin-top: 20px;
+
+  /* background-color: rgb(242, 240, 243); */
+  width: 100%;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+table td {
+  border-bottom: 1px solid black;
+}
+.cryptoChart {
+  width: 85%;
+  margin: 0 auto;
+  overflow: scroll;
+}
+.idInCryptoChart {
+  text-align: left;
+  width: 30%;
+}
+.page {
+  /* background-color: rgb(255, 255, 255); */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 10vh;
+}
+/* .pagination {
+  height: 50vh;
+  width: 100%;
+  background-color: aquamarine;
+  color: white;
+} */
+
+.pagination {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.paginationButton button {
+  border: none;
+}
+.paginate {
+  margin-top: 15px;
+}
+.paginate a {
+  margin: 2px;
+}
+.cryptoChart::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .cryptoChart {
+    width: 100%;
+  }
+  .idInCryptoChart {
+    position: sticky;
+    left: 2px;
+  }
+}

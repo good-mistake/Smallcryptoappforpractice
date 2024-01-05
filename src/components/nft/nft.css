@@ -1,0 +1,63 @@
+.container-in-nft-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: 5px;
+}
+.container-in-nft {
+  margin-top: 40px;
+}
+.nft-card {
+  width: 19%;
+  text-align: center;
+  /* background-color: rgb(62, 58, 82); */
+  margin: 20px 5px 5px 5px;
+  overflow-wrap: anywhere;
+  border-radius: 10px;
+}
+
+.nfts {
+  padding: 10px 0 5px 0;
+}
+.nfts img {
+  padding: 10px;
+  /* width: 50px; */
+}
+.searchbox-in-nft {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchbox-in-nft input {
+  text-align: center;
+  width: 90%;
+  border-radius: 10px;
+}
+.token-container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto; /*centering*/
+  padding: 20px;
+  border-radius: 20px;
+}
+.token-container div {
+  margin: 5px;
+}
+.token-container img {
+  margin: 20px;
+  width: 8rem;
+}
+.token-description {
+  text-align: left;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .token-container {
+    width: auto;
+  }
+}
+@media (max-width: 180px) {
+  .token-container {
+    font-size: 2rem;
+  }
+}

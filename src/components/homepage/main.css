@@ -1,0 +1,138 @@
+.main1 {
+  width: 100%;
+  height: auto;
+}
+.containerInMain {
+  width: 90%;
+  color: white;
+  height: auto;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.containerInMain p > a {
+  text-decoration: none;
+}
+.containerInMain p > a:hover {
+  color: rgb(109, 205, 243);
+}
+.topSectionInMain {
+  display: flex;
+  width: 100%;
+}
+.main-form {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin: 0 0 1rem 0.5rem;
+  border-radius: 15px;
+  letter-spacing: 3px;
+}
+.main-form div input {
+  border-radius: 0.375rem;
+}
+.form-checkbox input {
+  vertical-align: middle;
+  width: 1rem;
+  height: 1rem;
+}
+.trend {
+  padding: 1rem;
+  margin-bottom: 5px;
+  position: relative;
+  /* background-color: black; */
+  box-sizing: border-box;
+}
+.trending-coins {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* background-color: #480016; */
+  text-align: center;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+.trending-coins h4 {
+  margin: 1rem;
+}
+.submit {
+  padding: 10px 25px;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+form div,
+form label,
+form p {
+  margin: 10px;
+}
+form input:not(:last-child) {
+  background-color: rgb(221, 221, 221);
+  cursor: pointer;
+}
+
+.down {
+  color: rgb(255, 57, 57);
+}
+.down svg {
+  width: 30px;
+  height: 30px;
+}
+.up {
+  color: rgb(8, 207, 8);
+}
+.news {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.news img {
+  width: 25%;
+  border-radius: 4rem;
+}
+.news-content {
+  border: 1px solid black;
+  border-radius: 4rem;
+  display: flex;
+  margin: 1rem 0;
+  padding: 5px;
+  height: 10%;
+}
+.news-content-text {
+  padding: 5px;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+.news-content-text a {
+  text-decoration: none;
+}
+.topic {
+  margin: 3px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .topSectionInMain {
+    display: block;
+  }
+  .trending-coins {
+    display: block;
+  }
+  .main-form {
+    margin: 0;
+  }
+
+  .news-content {
+    display: block;
+  }
+  .news-content img {
+    width: 100%;
+  }
+  /* .switch {
+    width: auto;
+  } */
+}
